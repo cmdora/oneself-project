@@ -1,0 +1,27 @@
+body,
+#app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: .12rem;
+}
+.header {
+    height: .45rem;
+    line-height: .45rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.section {
+    flex: 1;
+    overflow-y: scroll;
+}
+.footer {
+    height: .45rem;
+    line-height: .45rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+}

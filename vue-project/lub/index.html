@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 该轮播图思想：
+    1、给一个大盒子 A，宽高固定
+    2、将图片放入一个盒子B，宽度为所有图片的总宽度，并使图片横向排列
+    3、分页器按钮与图片数目一致
+    4、改变 B 距离 A 的 marginLeft 值，借此使图片呈现出轮播的效果
+    5、点击 分页器 和 左右按钮，改变 count 值，最开始 count 默认为0
+    6、count 与 图片的宽度相乘最终的宽度，再判断是朝着哪个方向进行改变的便可以算出每次图片移动的距离
+    7、图片向右默认轮播
+    8、滑入 A 停止轮播，滑出 A 开始轮播 -->
+</body>
+<script src="js/ajax.js"></script>
+<script src="js/createBox.js"></script>
+<script src="js/lub.js"></script>
+<script>
+    let lub = new Lub()
+</script>
+</html>

@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "gulp-connect": "^5.2.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

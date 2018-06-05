@@ -1,0 +1,39 @@
+{
+	"status": 3,
+	"produceList": [
+		{
+			"produceStore": "京东自营",
+			"produce": [
+				{
+					"produceName": "相思鸟",
+					"producePrice": 89,
+					"produceQuantity": 1,
+					"produceImage": "http://imgtu.5011.net/uploads/content/20170320/7182971489996051.jpg"
+				},
+				{
+					"produceName": "海飞丝",
+					"producePrice": 99,
+					"produceQuantity": 3,
+					"produceImage": "http://pic9.nipic.com/20100914/2142621_164724068219_2.jpg"
+				}
+			]
+		},
+		{
+			"produceStore": "淘宝自营",
+			"produce": [
+				{
+					"produceName": "优越者",
+					"producePrice": 49,
+					"produceQuantity": 1,
+					"produceImage": "http://pic6.nipic.com/20100419/4177448_223742009725_2.jpg"
+				},
+				{
+					"produceName": "一加手机",
+					"producePrice": 3499,
+					"produceQuantity": 1,
+					"produceImage": "http://img1.3lian.com/img13/c3/5/d/85.jpg"
+				}
+			]
+		}
+	]
+}

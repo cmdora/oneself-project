@@ -1,0 +1,22 @@
+.tabBox {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.title {
+    line-height: 60px;
+    background: pink;   
+    margin-top: 0;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.title li {
+    list-style: none;
+}
+.content {
+    text-align: center;
+    line-height: 200px;
+}

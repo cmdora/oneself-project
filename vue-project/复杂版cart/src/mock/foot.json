@@ -1,0 +1,22 @@
+[
+	{
+		"path": "/home",
+		"text": "首页"
+	},
+	{
+		"path": "/class",
+		"text": "分类"
+	},
+	{
+		"path": "/discover",
+		"text": "发现"
+	},
+	{
+		"path": "/cart",
+		"text": "购物车"
+	},
+	{
+		"path": "/mine",
+		"text": "我的"
+	}
+]

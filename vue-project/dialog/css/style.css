@@ -1,0 +1,31 @@
+.mask {
+    width: 350px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+ul li {
+    list-style: none;
+}
+.title {
+    border-bottom: 1px solid red;
+    margin-top: 0;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.content .btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.sure,
+.cancel {
+    width: 60px;
+    line-height: 35px;
+    border-radius: 50px;
+    border: 1px solid red;
+    margin-left: -20px;
+}

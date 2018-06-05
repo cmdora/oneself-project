@@ -1,0 +1,66 @@
+[
+    {
+        "type": "discover",
+        "index": 1,
+        "list": [
+            {
+                "type": "choild",
+                "index": 0,
+                "text": "精选",
+                "path": "/discover/discover/choild/0",
+                "list": [
+                    {"title": "亚洲明星导师的街舞表演", "img": "http://up.qqjia.com/z/03/tu5354_2.jpg", "msg": "Park_Bongyoung · 前1M工作室导师，May J Lee名师指导", "price": 218},
+                    {"title": "世界冠军教练的美臀练习课程", "img": "http://up.qqjia.com/z/03/tu5354_3.jpg", "msg": "陈洲其 · 北京羽毛球队体能教练/多位世界级冠军运动员", "price": 148},
+                    {"title": "关于如何节制使用美食商谈", "img": "http://up.qqjia.com/z/03/tu5354_4.jpg", "msg": "由多位著名美食加健身专家会盟，为大家带来精彩的美食与身材两不误的好的饮食方案", "price": 158},
+                    {"title": "关于如何节制使用美食商谈", "img": "http://up.qqjia.com/z/03/tu5354_4.jpg", "msg": "由多位著名美食加健身专的美食与身材两不误的好的饮食方案", "price": 128},
+                    {"title": "关于如何节制使用美食商谈", "img": "http://up.qqjia.com/z/03/tu5354_4.jpg", "msg": "由多位著名美食加健身专家会盟，为大家带来精彩的美食与案", "price": 122}
+                ]
+            },
+            {
+                "type": "train",
+                "index": 1,
+                "text": "训练",
+                "path": "/discover/discover/train/1",
+                "list": [
+                    
+                ]
+            },
+            {
+                "type": "strategy",
+                "index": 2,
+                "text": "攻略",
+                "path": "/discover/discover/strategy/2",
+                "list": [
+                    
+                ]
+            },
+            {
+                "type": "food",
+                "text": "饮食",
+                "index": 3,
+                "path": "/discover/discover/food/3",
+                "list": [
+                    
+                ]
+            },
+            {
+                "type": "shop",
+                "text": "商城",
+                "index": 4,
+                "path": "/discover/discover/shop/4",
+                "list": [
+                    
+                ]
+            },
+            {
+                "type": "city",
+                "index": 5,
+                "text": "同城",
+                "path": "/discover/discover/city/5",
+                "list": [
+                    
+                ]
+            }
+        ]
+    }
+]

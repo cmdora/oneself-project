@@ -1,0 +1,46 @@
+[
+    {
+        "type": "project",
+        "index": 1,
+        "list": [
+            {
+                "type": "uplane",
+                "index": 0,
+                "text": "U计划",
+                "path": "/project/project/uplane/0",
+                "list": [
+                    {"title": "U计划-12月", "value": "8.8%+0.4%", "month": "12"},
+                    {"title": "U计划-24月", "value": "9.8%", "month": "24"},
+                    {"title": "U计划-36月", "value": "9.9%", "month": "36"}
+                ]
+            },
+            {
+                "type": "nplane",
+                "index": 1,
+                "text": "薪计划",
+                "path": "/project/project/nplane/1",
+                "list": [
+                    
+                ]
+            },
+            {
+                "type": "mark",
+                "index": 2,
+                "text": "散标",
+                "path": "/project/project/mark/2",
+                "list": [
+                    
+                ]
+            },
+            {
+                "type": "personam",
+                "text": "债权",
+                "index": 3,
+                "path": "/project/project/personam/3",
+                "list": [
+                    
+                ]
+            }
+        ]
+    }
+]

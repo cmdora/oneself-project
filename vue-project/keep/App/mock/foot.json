@@ -1,0 +1,18 @@
+[
+    {
+        "text": "训练",
+        "path": "/train/train"
+    },
+    {
+        "text": "发现",
+        "path": "/discover/discover"
+    },
+    {
+        "text": "动态",
+        "path": "/information/information"
+    },
+    {
+        "text": "我",
+        "path": "/my/my"
+    }
+]

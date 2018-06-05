@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="box">
+        <span>共计：<b id="sum">5</b>页</span>
+        <span id="prev">上一页</span>
+        <div id="page">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <span id="next">下一页</span>
+        <span>前往：<b id="pagess">1</b>页</span>
+    </div>
+</body>
+<script src="js/page.js"></script>
+<script>
+    let page = new Page({
+        data: [], //总数据
+        pageLength: [5,10,15,20], // 每页显示的数据条数
+        cb1: function () {}, // 页码改变时触发
+        cb2: function () {} // select框中的每页展示条数改变时触发
+    })
+</script>
+</html>

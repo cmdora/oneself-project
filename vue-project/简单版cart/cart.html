@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="IE=dege,chrom=1" http-equiv='X-UA-Compatible'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div id="app">
+			<div class="container">
+				<header class="header">
+					<span>购物车</span>
+				</header>
+				<section class="section">
+					<div class="section-table">
+						<div class="cart-head">
+							<ul>
+								<li>商品信息</li>
+								<li>商品金额</li>
+								<li>商品数量</li>
+								<li>总金额</li>
+								<li>编辑</li>
+							</ul>
+						</div>
+						<ul class="cart-list">
+							<li v-for='(item, index) in productList' :key='index'>
+								<div class="cart-tab-1">
+									<div class="cart-radio-check" @click='selectedProduct(item)'>
+										<div class="box"><span :class="{'check': item.checked}">√</span></div>
+									</div>
+									<div class="cart-pic">
+										<img :src="item.productImage" alt="" />
+									</div>
+									<div class="cart-title">
+										<div>{{item.productName}}</div>
+									</div>
+									<div class="cart-gift">
+										<dl>
+											<dt>赠送：</dt>
+											<dd v-for="(part, index) in item.parts" :key='index' v-text='part.partsName'></dd>
+										</dl>
+									</div>
+								</div>
+								<div class="cart-tab-2">
+									<div class="cart-price">{{item.productPrice | formatMoney}}</div>
+								</div>
+								<div class="cart-tab-3">
+									<div class="cart-num">
+										<span @click='changeMoney(item, -1)'>-</span>
+										<input type="text" :value="item.productQuantity" disabled />
+										<span @click='changeMoney(item, 1)'>+</span>
+									</div>
+									<div class="cart-stock">有货</div>
+								</div>
+								<div class="cart-tab-4">
+									<div class="cart-price-total">{{item.productPrice * item.productQuantity | money('元')}}</div>
+								</div>
+								<div class="cart-tab-5">
+									<div class="cart-remove" @click="delConfirm(item)">删除</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<footer class="footer">
+					<div class="cart-foot-left">
+						<div class="cart-check">
+							<a class="cart-all-check cart-radio-check" @click="checkAll(true)">
+								<div class="box"><span :class="{'check': checkAllFlag}">√</span></div>
+							</a>
+							<span class="all" v-show="!checkAllFlag">全选</span>
+						</div>
+						<div class="cart-del" @click="checkAll(false)" v-show="checkAllFlag">
+							<span>取消全选</span>
+						</div>
+					</div>
+					<div class="cart-foot-right">
+						<div class="cart-all-price">
+							Item total：<span class="all-price">{{totalMoney | formatMoney}}</span>
+						</div>
+						<div class="cart-ok">
+							<a href="#">结账</a>
+						</div>
+					</div>
+				</footer>
+			</div>
+			
+			<div class="mask mask-md" :class="{'mask-show': delFlag}">
+				<div class="mask-md">
+					<div class="mask-head">
+						<button class="mask-close" @click="delFlag = false"></button>
+					</div>
+					<div class="mask-content">
+						<div class="mask-content-title">
+							<p>您确认删除此订单信息吗？</p>
+						</div>
+						<div class="mask-content-btn">
+							<button class="ok" @click="delProduct">Yes</button>
+							<button class="no btn-red" @click="delFlag=false">No</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/lib/vue.min.js"></script>
+<script src="js/lib/vue-resource.js"></script>
+<script src="js/cart.js"></script>

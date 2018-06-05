@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="IE=dege,chrom=1" http-equiv='X-UA-Compatible'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div id="app">
+			<header class="header">
+				<span>购物车</span>
+			</header>
+			<section class="section">
+				<div class="section-table">
+					<div class="cart-head">
+						<ul>
+							<li>商品信息</li>
+							<li>商品金额</li>
+							<li>商品数量</li>
+							<li>总金额</li>
+							<li>编辑</li>
+						</ul>
+					</div>
+					<ul class="cart-list">
+						<li>
+							<div class="cart-tab-1">
+								<div class="cart-radio-check">
+									<div class="box"><span>√</span></div>
+								</div>
+								<div class="cart-pic">
+									<img src="img/goods-1.jpg" alt="" />
+								</div>
+								<div class="cart-title">
+									<div>黄鹤楼香烟</div>
+								</div>
+								<div class="cart-gift">
+									<dl>
+										<dt>赠送：</dt>
+										<dd>打火机</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="cart-tab-2">
+								<div class="cart-price"></div>
+							</div>
+							<div class="cart-tab-3">
+								<div class="cart-num">
+									<span>-</span>
+									<input type="text" value="0" disabled />
+									<span>+</span>
+								</div>
+								<div class="cart-stock">有货</div>
+							</div>
+							<div class="cart-tab-4">
+								<div class="cart-price-total">0.00</div>
+							</div>
+							<div class="cart-tab-5">
+								<div class="cart-remove">删除</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="cart-foot-left">
+					<div class="cart-check">
+						<a class="cart-all-check cart-radio-check">
+							<div class="box"><span>√</span></div>
+						</a>
+						<span class="all">全选</span>
+					</div>
+					<div class="cart-del">
+						<span>取消全选</span>
+					</div>
+				</div>
+				<div class="cart-foot-right">
+					<div class="cart-all-price">
+						Item total：<span class="all-price"></span>
+					</div>
+					<div class="cart-ok">
+						<a href="#">结账</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+<script src="js/lib/vue.min.js"></script>
+<script src="js/lib/vue-resource.js"></script>
+<script src="js/cart.js"></script>
