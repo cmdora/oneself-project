@@ -1,0 +1,13 @@
+.header {
+	width: 100%;
+	height: .45rem;
+	line-height: .45rem;
+	background: pink;
+	text-align: center;
+	color: #fff;
+}
+.section {
+	flex: 1;
+	overflow-y: scroll;
+	position: relative;
+}

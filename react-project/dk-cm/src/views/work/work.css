@@ -1,0 +1,28 @@
+.tab {
+	border: 1px solid red;
+	width: 318px;
+	height: 200px;
+}
+.tab-title {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+.tab-title span {
+	flex: 1;
+	text-align: center;
+	line-height: 45px;
+}
+.tab-con {
+	width: 318px;
+	background: skyblue;
+	height: 154px;
+}
+.tab-con .tab-page {
+	width: 318px;
+	height: 154px;
+	background: red;
+	display: none;
+}
+.tab-con .tab-page.active {
+	display: block;
+}

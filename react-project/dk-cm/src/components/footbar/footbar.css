@@ -1,0 +1,17 @@
+.footer {
+	width: 100%;
+	height: .45rem;
+	line-height: .45rem;
+	background: pink;
+	display: flex;
+}
+.footer a {
+	flex: 1;
+	text-decoration: none;
+	color: #999;
+	text-align: center;
+}
+.footer .active {
+	background: skyblue;
+	color: #fff;
+}

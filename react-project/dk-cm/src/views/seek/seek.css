@@ -1,0 +1,73 @@
+.seek-page {
+	display: flex;
+}
+.seek-page > div {
+	flex: 1;
+	text-align: center;
+}
+.seek-page > div > span {
+	line-height: 45px;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.seek-page > div > span.colors {
+	color: skyblue;
+	border-bottom: 1px solid skyblue;
+}
+.seek-mark {
+	width: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.3);
+	left: 0;
+	top: 0;
+	bottom: 45px;
+}
+.seek-mark .seek-mark-content {
+	background: #fff;
+}
+.seek-mark-content {
+	display: flex;
+	padding: 10px 0;
+}
+.seek-mark-content > ul {
+	flex: 1;
+}
+.seek-mark-content > ul li {
+	line-height: 30px;
+}
+
+.seek-body {
+	padding: 5px;
+}
+.seek-home {
+	display: flex;
+	color: #999;
+	font-size: 10px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+.seek-home dt {
+	flex: 3.5;
+}
+.seek-home dt img {
+	width: 100%;
+	height: auto;
+}
+.seek-home dd {
+	flex: 6.5;
+	padding-left: 10px;
+}
+.seek-home .seek-home-tit {
+	margin-bottom: 5px;
+}
+.seek-home .seek-home-msg {
+	display: flex;
+	justify-content: space-between;
+}
+.seek-home .seek-home-msg span:nth-child(2) {
+	color: red;
+}
+.red {
+	color: red;
+}
