@@ -1,0 +1,18 @@
+.detail{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.detail img{
+    width: 60%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: block;
+}
+.detail div{
+    margin: 0 auto;
+    width: 3rem;
+    text-align: center;
+    line-height: .5rem;
+}

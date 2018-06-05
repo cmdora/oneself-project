@@ -1,0 +1,2 @@
+webpackJsonp([2],{I0SF:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=e("ykYh"),a=e.n(r);for(var c in r)"default"!==c&&function(n){e.d(t,n,function(){return r[n]})}(c);var i=e("gW8K");var u=function(n){e("ghhj")},f=e("/4AN")(a.a,i.a,!1,u,"data-v-6f3cdc5e",null);t.default=f.exports},gW8K:function(n,t,e){"use strict";var r={render:function(){var n=this.$createElement;return(this._self._c||n)("div",[this._v("申请开店")])},staticRenderFns:[]};t.a=r},ghhj:function(n,t){},ykYh:function(n,t){}});
+//# sourceMappingURL=2.a085d307104942762bf1.js.map

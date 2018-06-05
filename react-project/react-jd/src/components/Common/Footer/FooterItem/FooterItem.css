@@ -1,0 +1,8 @@
+.footer-item i{
+    text-align: center;
+    font-size: .2rem;
+    display: block;
+}
+.footer-item span{
+    line-height: .6rem;
+}

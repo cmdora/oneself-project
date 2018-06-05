@@ -1,0 +1,26 @@
+.tab-box {
+    width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+.tab-box .content{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.tab-box nav{
+   display: flex;
+}
+.tab-box nav a{
+    flex: 1;
+    background: #ccc;
+    color: #000;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+ }
+ .tab-box nav a.active{
+    background: #fff;
+ }

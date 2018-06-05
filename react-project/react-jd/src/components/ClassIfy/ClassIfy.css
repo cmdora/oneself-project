@@ -1,0 +1,26 @@
+.classify{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.lefts{
+    flex-basis: 2rem;
+    overflow-y: scroll;
+    border-right: solid 1px #ccc;
+}
+.lefts a{
+    display: block;
+    border-bottom: solid 2px #eee;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+}
+.rights{
+    flex: 1;
+    overflow-y: scroll;
+}

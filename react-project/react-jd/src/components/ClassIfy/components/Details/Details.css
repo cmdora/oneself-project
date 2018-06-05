@@ -1,0 +1,35 @@
+.boxs h3{
+    height: .6rem;
+    text-indent: 20px;
+    line-height: .6rem;
+    font-size: .28rem;
+}
+.boxs{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.boxs ul{
+    width: calc(100% - .4rem);
+    background: #fff;
+    margin: 0 .2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.boxs ul li{
+    width: 30%;
+    cursor: pointer;
+}
+.boxs ul li img{
+    width: 100%;
+}
+.boxs ul li div{
+    text-align: center;
+    font-size: .22rem;
+    line-height: .6rem;
+}

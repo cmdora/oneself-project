@@ -1,0 +1,20 @@
+.circle-chart {
+    position: relative;
+    margin: 0 auto;
+}
+.circle-chart canvas{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.circle-chart .citcle-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.login-box {
+    background: #fff;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

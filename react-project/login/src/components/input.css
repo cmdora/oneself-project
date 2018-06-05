@@ -1,0 +1,18 @@
+.form-input {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.form-input label{
+    width: 80px;
+    text-align: justify;
+    text-justify: newspaper;
+}
+.form-input input{
+    flex: 1;
+    border: 0;
+    outline: none;
+}

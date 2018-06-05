@@ -1,0 +1,25 @@
+*{
+  margin:0;padding:0;
+}
+body,html,#root,.App,.cen{
+  width:100%;height:100%;
+}
+.cen{
+  display: flex;flex-direction: column;
+}
+a{
+  text-decoration: none
+}
+.bot{
+  height: 45px;display: flex;padding-top: 6px;border-top:1px solid #ccc;
+}
+.top{
+  flex:1;overflow-y: scroll;
+}
+.bot a{
+  width: 25%;text-align: center;
+}
+.bot a p{
+  display: flex;flex-direction: column;
+}
+

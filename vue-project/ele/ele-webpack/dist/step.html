@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>step</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		.title {
+			line-height: 35px;
+		}
+		.row .step1,
+		.row .step2,
+		.row .step3 {
+			line-height: 35px;
+		}
+		.form {
+			margin-top: 15px;
+		}
+		select {
+			margin-right: 1%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="col-sm-offset-1 title">申请商户认证</div>
+		<div class="row">
+			<div class="col-sm-3 step1" align="center">
+				门店信息
+			</div>
+			<div class="col-sm-3 step2" align="center">
+				资质信息
+			</div>
+			<div class="col-sm-3 step3" align="center">
+				完成
+			</div>
+		</div>
+
+		<form action="/api/shop/add" method="post" class="form-horizontal form" id="form">
+		  <div class="form-group">
+		    <label for="inputName3" class="col-sm-2 control-label">门店名称</label>
+		    <div class="col-sm-10">
+		      <input type="text" name="shop_title" class="form-control" id="inputName3" placeholder="请与门店照上的名称保持一致">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">外卖电话</label>
+		    <div class="col-sm-10">
+		      <input type="text" name="shop_tel" class="form-control" id="inputPassword3" placeholder="请输入外卖电话">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputTelName3" class="col-sm-2 control-label">联系人姓名</label>
+		    <div class="col-sm-10">
+		      <input type="text" name="people_name" class="form-control" id="inputTelName3" placeholder="请填写联系人姓名">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputTelPhone3" class="col-sm-2 control-label">联系人电话</label>
+		    <div class="col-sm-10">
+		      <input type="text" name="people_tel" class="form-control" id="inputTelPhone3" placeholder="请填写联系人电话">
+		    </div>
+		  </div>
+		  <div class="form-group form-inline">
+		    <label class="col-sm-2 control-label">门店分类</label>
+		    <div class="col-sm-10">
+		      <select class="form-control" name="shop_class_main">
+					  <option>冷饮</option>
+					  <option>拉面</option>
+					  <option>排骨</option>
+					  <option>烤全羊</option>
+					  <option>手撕牛肉</option>
+					</select>
+					<select class="form-control" name="shop_class_less">
+					  <option>冰淇淋</option>
+					  <option>盖饭</option>
+					  <option>手抓饼</option>
+					  <option>糯米酒酿</option>
+					  <option>酒酿团子</option>
+					</select>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label class="col-sm-2 control-label">营业时间</label>
+		    <div class="col-sm-10">
+		      <label class="radio-inline">
+					  <input type="radio" name="shop_time" id="inlineRadio1" value="24小时"> 24小时
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="shop_time" id="inlineRadio2" value="自定义"> 自定义
+					</label>
+		    </div>
+		  </div>
+		  <div class="form-group form-inline">
+		    <label for="inputPassword3" class="col-sm-2 control-label">城市</label>
+		    <div class="col-sm-10">
+		      <select class="form-control" name="shop_city1">
+					  <option>安徽省</option>
+					  <option>福建省</option>
+					  <option>甘肃省</option>
+					  <option>广东省</option>
+					  <option>广西省</option>
+					</select>
+					<select class="form-control" name="shop_city2">
+					  <option>合肥市</option>
+					  <option>安庆市</option>
+					  <option>毫州市</option>
+					  <option>巢湖市</option>
+					  <option>池州市</option>
+					</select>
+					<select class="form-control" name="shop_city3">
+					  <option>大望路</option>
+					  <option>潘家园</option>
+					  <option>呼家楼</option>
+					  <option>太阳宫</option>
+					  <option>北沙滩</option>
+					</select>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button type="submit" class="btn btn-primary">提交</button>
+		    </div>
+		  </div>
+		</form>
+	</div>
+<script type="text/javascript" src="./static/js/step.js"></script></body>
+</html>

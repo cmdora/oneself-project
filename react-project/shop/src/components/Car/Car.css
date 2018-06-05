@@ -1,0 +1,23 @@
+.dls{
+    width:100%;height:auto;display: flex;
+}
+.dls p{
+    width: 10%;padding-top: 20px;
+}
+.dls dl{
+    flex:1;display: flex;
+}
+.dls dl dt{
+    width: 30%;
+}
+.dls dt img{
+    width: 100%;
+}
+.sel{
+    width: 20px;height: 20px;border-radius: 100%;border:1px solid #ccc;display: inline-block;text-align: center;line-height: 20px;
+}
+.icon-dui{
+        background:#fc4141;
+        color: #fff;
+        border-color:#fc4141;
+    }

@@ -1,0 +1,31 @@
+[
+    {
+        "src":"./../../assets/img/one.jpg",
+        "text":"度假胜地聚集家讲的是点击",
+        "price":123,
+        "count":1,
+        "id":0,
+        "selected":0
+    },{
+        "src":"./../../assets/img/two.jpg",
+        "text":"邯郸邯郸和按市的火车读",
+        "price":234,
+        "count":1,
+        "id":1,
+        "selected":0
+    },{
+        "src":"./../../assets/img/three.jpg",
+        "text":"爱读书多好岁啥速度阿阿斯顿",
+        "price":78,
+        "count":1,
+        "id":2,
+        "selected":0
+    },{
+        "src":"./../../assets/img/foure.jpg",
+        "text":"，等会的花朵是多少速度哦加速度",
+        "price":90,
+        "count":1,
+        "id":3,
+        "selected":0
+    }
+]

@@ -1,0 +1,19 @@
+.list{
+    width: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+.list img{
+    width: 100%;
+}
+.list p{
+    line-height: 24px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
